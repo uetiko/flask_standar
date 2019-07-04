@@ -1,9 +1,8 @@
 import os
 from datetime import timedelta
-from project.app.commons.utils.settings import BaseConfig
 
 
-class GeneralConfig(BaseConfig):
+class GeneralConfig(object):
     """
     Las variables aquí puestas están definidas en la documentación oficial
     de Flask.

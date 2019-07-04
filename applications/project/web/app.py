@@ -1,5 +1,5 @@
-from project.app.commons.di.containers import ApplicationIoC
-
+from applications.project.src.application.commons.di.containers import \
+    ApplicationIoC
 
 main = ApplicationIoC.main()
 

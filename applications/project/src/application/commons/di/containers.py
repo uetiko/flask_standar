@@ -2,12 +2,12 @@ from dependency_injector.containers import DeclarativeContainer
 from dependency_injector.providers import Singleton
 from dependency_injector.providers import Callable
 from flask import Flask
-from flask_sqlalchemy import  SQLAlchemy
+from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
-from project.settings import ConfigApplication
-from project import HelperProyect
-from project import create_project
-from project import main
+from applications.project.config.settings import ConfigApplication
+from applications.project import HelperProyect
+from applications.project import create_project
+from applications.project import main
 
 
 class CoreIoC(DeclarativeContainer):
